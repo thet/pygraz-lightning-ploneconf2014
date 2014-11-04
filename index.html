@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Plone Conference 2014</title>
+
+    <meta name="description" content="Über die Ploneconf 2014 in Bristol.">
+    <meta name="author" content="Johannes Raggam">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
+    <link rel="stylesheet" href="bower_components/reveal.js/css/theme/default.css" id="theme">
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css">
+    <link rel="stylesheet" href="custom.css">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'bower_components/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="reveal.js/lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+
+        <section data-background="#0083BE">
+          <h1>Plone Conference 2014</h1>
+          <h3>Bristol, UK</h3>
+          <ul>
+            <li>Training: 27th - 28th October</li>
+            <li>Conference: 29th - 31st October</li>
+            <li>Sprint: 1st - 2nd November</li>
+          </ul>
+        </section>
+
+        <section data-background="#CBBE00">
+          <section>
+            <h1>$ whoami</h1>
+            <h3>Johannes Raggam</h3>
+            <ul>
+              <li><a href="https://github.com/thet">github.com/thet</a></li>
+              <li><a href="https://twitter.com/thetetet"></a>twitter.com/thetetet</a></li>
+              <li><a href="http://johannes.raggam.co.at"></a>johannes.raggam.co.at</a></li>
+            </ul>
+          </section>
+        </section>
+
+        <section data-background="#0BD52D">
+          <section>
+            <h1>Plone Conference 2014</h1>
+            <ul>
+              <li>14th Plone Conference</li>
+              <li>~ 150 Attendees</li>
+              <li>42 Talks</li>
+              <li>3 Trainings</li>
+              <li>Many Lightning Talks</li>
+              <li>Many Open Spaces</li>
+              <li>Many sprinters</li>
+            </ul>
+          </section>
+        </section>
+
+        <section data-background="#0083BE">
+          <section>
+            <h1><a href="http://2014.ploneconf.org/talks/@@list">Topics</a></h1>
+          </section>
+
+          <section>
+            <h2><a href="http://localhost:8080/Plone">New theme</a></h2>
+          </section>
+
+          <section>
+            <h2><a href="http://localhost:8000/#pattern/modal">Mockup</a></h2>
+            <a href="http://plone.github.io/mockup"><img class="logo" style="max-width:70%; max-height:70%" src="img/mockup-logo.jpg"/></a><br/>
+          </section>
+
+          <section>
+            <h2>New Resource Registry</h2>
+          </section>
+
+          <section>
+            <h2>Future of Plone</h2>
+          </section>
+
+          <section>
+            <h2>Plone on Pyramid</h2>
+          </section>
+
+          <section>
+            <h2>Javascript Frameworks vs Own Stack</h2>
+          </section>
+
+          <section>
+            <h2>Migrations</h2>
+          </section>
+
+          <section>
+            <h2><a href="http://2014.ploneconf.org/talks/@@list">Many More...</a></h2>
+          </section>
+
+        </section>
+
+        <section data-background="#0BD52D">
+          <section>
+            <h2><a href="http://vimeo.com/channels/ploneconf2014">Videos</a></h2>
+          </section>
+          <section>
+            <h2><a href="https://www.flickr.com/search/?q=ploneconf2014">Photos</a></h2>
+          </section>
+          <section>
+            <h2><a href="https://twitter.com/search?q=ploneconf&src=typd">Twitter Stream</a></h2>
+          </section>
+        </section>
+
+        <section data-background="#0083BE">
+          <h1>That's all, folks!</h1>
+        </section>
+
+      </div>
+    </div>
+
+    <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+    <script src="bower_components/reveal.js/js/reveal.min.js"></script>
+    <script>
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+        backgroundTransition: 'slide',
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
+
